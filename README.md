@@ -4,8 +4,8 @@
 
 # Project Overview
 
-This repository is a Taro + React + TypeScript starter project for WeChat Mini-Programs and mobile H5, styled with Tailwind CSS and managed via pnpm.
-This document explains how to set up your local environment, develop, test, lint, and build the project.
+本仓库是基于 Taro + React + TypeScript 搭建的微信小程序与移动端H5通用起步项目，采用 Tailwind CSS 进行样式开发，依赖包通过 pnpm 管理。
+本文档介绍如何完成项目的本地环境搭建、开发调试、测试、代码校验以及项目打包构建。
 ---
 
 ## Repository Structure
