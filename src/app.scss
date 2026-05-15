@@ -1,0 +1,65 @@
+@use 'tailwindcss/base';
+@use 'tailwindcss/components';
+@use 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --background: 88 50% 95%;
+    --foreground: 122 60% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 122 60% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 122 60% 15%;
+    --primary: 122 39% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 88 40% 92%;
+    --secondary-foreground: 122 60% 15%;
+    --muted: 88 30% 90%;
+    --muted-foreground: 122 30% 35%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 122 60% 15%;
+    --destructive: 0 72.22% 50.59%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 88 30% 85%;
+    --input: 88 30% 90%;
+    --ring: 122 39% 39%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer utilities {
+  .bg-nature {
+    background: linear-gradient(180deg, #E8F5E9 0%, #F1F8E9 40%, #FFFDE7 100%);
+  }
+
+  .bg-card-white {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 12px rgba(56, 142, 60, 0.08);
+    border: 1px solid rgba(56, 142, 60, 0.1);
+  }
+
+  .gradient-text-green {
+    background: linear-gradient(135deg, #2E7D32, #66BB6A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btn-primary-green {
+    background: linear-gradient(135deg, #43A047, #2E7D32);
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(67, 160, 71, 0.3);
+  }
+}
+
+@keyframes sway {
+  0% { transform: rotate(-3deg) translate(0, 0); }
+  50% { transform: rotate(3deg) translate(10px, -15px); }
+  100% { transform: rotate(-3deg) translate(0, 0); }
+}
+
+@keyframes float-leaf {
+  0% { transform: translate(0, 0) rotate(0deg); opacity: 0.3; }
+  50% { transform: translate(20px, -30px) rotate(180deg); opacity: 0.6; }
+  100% { transform: translate(0, 0) rotate(360deg); opacity: 0.3; }
+}
