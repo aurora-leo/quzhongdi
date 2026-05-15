@@ -1,4 +1,5 @@
-# 欢迎使用趣种地
+# 趣种地
+
 秒哒应用链接
     URL:https://www.miaoda.cn/projects/app-bnaznsblkw01
 
